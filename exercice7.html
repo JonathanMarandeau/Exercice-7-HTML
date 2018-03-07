@@ -7,19 +7,22 @@
   </head>
   <body>
     <form>
-      <span class="identité">Votre identité</span>
-      <ol>
-        <li>Nom:
-          <input type="Nom" name="Nom" placeholder="Nom"/>
-        </li>
-        <li>Prénom:
-          <input type="Prénom" name="Prénom" placeholder="Prénom"/>
-        </li>
-        <li>Adresse mail:
-          <input type="Adresse mail" name="Adresse mail" placeholder="Adresse mail"/>
-        </li>
-      </ol>
-      <span class="Adresse de livraison">Adresse de livraison</span>
+      <span class="Identité">Votre identité</span>
+      <div id="Identité">
+        <ol>
+          <li>Nom:
+            <input type="Nom" name="Nom" placeholder="Nom"/>
+          </li>
+          <li>Prénom:
+            <input type="Prénom" name="Prénom" placeholder="Prénom"/>
+          </li>
+          <li>Adresse mail:
+            <input type="Adresse mail" name="Adresse mail" placeholder="Adresse mail"/>
+          </li>
+        </ol>
+      </div>
+      <span class="Adresse">Adresse de livraison</span>
+      <div id="Adresse">
       <ol>
           <li>Adresse:
             <textarea name="adresse de livraison" id="adresse de livraison"></textarea>
@@ -31,7 +34,9 @@
             <input type="Ville" name="Ville" placeholder="Ville"/>
           </li>
       </ol>
-      <span class="Info règlement">Informations de règlement</span>
+    </div>
+      <span class="Info">Informations de règlement</span>
+      <div id="Règlement">
       <ol>
         <li>Type de carte bancaire:<br>
             <input type="radio" name="carte" value="VISA" id="VISA"/>
@@ -47,8 +52,9 @@
           <li>Nom du titulaire
             <input type="Nom du titulaire" name="Nom du titulaire" placeholder="Nome du titulaire"/>
           </li>
-
+        </ol>
+      </div>
+      <input type="button" value="J'achète"/>
     </form>
-
   </body>
 </html>
