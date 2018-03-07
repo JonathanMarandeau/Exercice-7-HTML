@@ -3,6 +3,7 @@
   width: auto;
   height: auto;
 }
+
 #Identité{
   background-color: #2574A9;
   width: auto;
@@ -29,3 +30,16 @@
   height: auto;
 }
 textarea{width: 200px;height: 100px;}
+.tab{
+  background-color: inherit;
+  position: relative;
+  bottom: 15px;
+  right: -15px;
+}
+div{
+  padding: 5px;
+  margin-bottom: 10px;
+  border-style: double;
+  border-color: grey;
+  background-clip: padding-box;
+}
