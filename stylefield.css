@@ -1,0 +1,20 @@
+#Identité{
+  background-color: #2574A9;
+}
+
+#Adresse{
+  background-color: #9A12B3;
+}
+
+#Règlement{
+  background-color: #DB0A5B;
+}
+
+textarea{
+width: 200px;
+height: 100px;
+}
+
+legend{
+  background-color:inherit;
+}
